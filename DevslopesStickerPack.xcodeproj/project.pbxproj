@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7BB35591E327AE300414A81 /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C7BB35581E327AE300414A81 /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C7BB355D1E327AE300414A81 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = C7BB355C1E327AE300414A81 /* Stickers.xcstickers */; };
+		C7BB355E1E327AE300414A81 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = C7BB355C1E327AE300414A81 /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7BB355A1E327AE300414A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7BB354E1E327AE300414A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7BB35571E327AE300414A81;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7BB35641E327AE300414A81 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C7BB35591E327AE300414A81 /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7BB35541E327AE300414A81 /* DevslopesStickerPack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevslopesStickerPack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BB35581E327AE300414A81 /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BB355C1E327AE300414A81 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C7BB354D1E327AE300414A81 = {
+			isa = PBXGroup;
+			children = (
+				C7BB355C1E327AE300414A81 /* Stickers.xcstickers */,
+				C7BB35551E327AE300414A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7BB35551E327AE300414A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7BB35541E327AE300414A81 /* DevslopesStickerPack.app */,
+				C7BB35581E327AE300414A81 /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7BB35531E327AE300414A81 /* DevslopesStickerPack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BB35651E327AE300414A81 /* Build configuration list for PBXNativeTarget "DevslopesStickerPack" */;
+			buildPhases = (
+				C7BB35521E327AE300414A81 /* Resources */,
+				C7BB35641E327AE300414A81 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BB355B1E327AE300414A81 /* PBXTargetDependency */,
+			);
+			name = DevslopesStickerPack;
+			productName = DevslopesStickerPack;
+			productReference = C7BB35541E327AE300414A81 /* DevslopesStickerPack.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		C7BB35571E327AE300414A81 /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BB35611E327AE300414A81 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				C7BB35561E327AE300414A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = C7BB35581E327AE300414A81 /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7BB354E1E327AE300414A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Keivan Shahida";
+				TargetAttributes = {
+					C7BB35531E327AE300414A81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CL9XQET3B9;
+						ProvisioningStyle = Automatic;
+					};
+					C7BB35571E327AE300414A81 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CL9XQET3B9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7BB35511E327AE300414A81 /* Build configuration list for PBXProject "DevslopesStickerPack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7BB354D1E327AE300414A81;
+			productRefGroup = C7BB35551E327AE300414A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7BB35531E327AE300414A81 /* DevslopesStickerPack */,
+				C7BB35571E327AE300414A81 /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7BB35521E327AE300414A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BB355E1E327AE300414A81 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7BB35561E327AE300414A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7BB355D1E327AE300414A81 /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7BB355B1E327AE300414A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7BB35571E327AE300414A81 /* StickerPackExtension */;
+			targetProxy = C7BB355A1E327AE300414A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7BB355F1E327AE300414A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7BB35601E327AE300414A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7BB35621E327AE300414A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CL9XQET3B9;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keivanshahida.DevslopesStickerPack.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7BB35631E327AE300414A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CL9XQET3B9;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keivanshahida.DevslopesStickerPack.StickerPackExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7BB35661E327AE300414A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CL9XQET3B9;
+				INFOPLIST_FILE = DevslopesStickerPack/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keivanshahida.DevslopesStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C7BB35671E327AE300414A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = CL9XQET3B9;
+				INFOPLIST_FILE = DevslopesStickerPack/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.keivanshahida.DevslopesStickerPack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7BB35511E327AE300414A81 /* Build configuration list for PBXProject "DevslopesStickerPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BB355F1E327AE300414A81 /* Debug */,
+				C7BB35601E327AE300414A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7BB35611E327AE300414A81 /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BB35621E327AE300414A81 /* Debug */,
+				C7BB35631E327AE300414A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7BB35651E327AE300414A81 /* Build configuration list for PBXNativeTarget "DevslopesStickerPack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BB35661E327AE300414A81 /* Debug */,
+				C7BB35671E327AE300414A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7BB354E1E327AE300414A81 /* Project object */;
+}
